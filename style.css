@@ -1,0 +1,48 @@
+.postBody {
+  background-color: seagreen;
+  border-radius: 15px;
+  color: white;
+}
+
+.title {
+  color: gold;
+}
+
+.subTitle {
+  margin-top: -15px;
+  padding-top: 0px;
+}
+
+.date { 
+  margin-top: 10px;
+}
+
+.author {
+  padding-right: 5px;
+  padding-left: 5px;
+  font-size: 50%;
+  color: orange;
+}
+
+.loop {
+  width: 250px;
+  height: 250px;
+}
+
+
+.glyphicon.spinning {
+  margin-top: 100px;
+  font-size: 400%;
+    animation: spin 1s infinite linear;
+    -webkit-animation: spin2 1s infinite linear;
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg); }
+    to { transform: scale(1) rotate(360deg); }
+}
+
+@-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
